@@ -1,0 +1,32 @@
+body{
+	background-color:#F0EFED;
+	font-family: 'Noto Serif', serif;
+	
+}
+
+#navigation a {
+	color:black;
+	float:right;
+	padding:20px;
+	text-decoration:underline;
+	text-decoration-color:#CC0000;
+	font-size:130%;
+	
+}
+section {
+	padding-top:100px;
+}
+
+#navbar h1{
+	text-decoration:underline;
+	text-decoration-color:#CC0000;
+	
+}
+#hcjimg {
+	 margin-left: auto;
+     margin-right: auto;
+}
+#nom{
+	
+	font-size:350%;
+}
