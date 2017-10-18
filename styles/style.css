@@ -14,7 +14,7 @@ body{
 	
 }
 section {
-	padding-top:100px;
+	padding-top:120px;
 }
 
 #navbar h1{
@@ -30,3 +30,33 @@ section {
 	
 	font-size:350%;
 }
+.par_int{
+	padding-top:50px;
+	font-size:140%;
+}
+#animed1{
+	position:relative;
+	animation-name:slide;
+	animation-duration:2s;
+	animation-timing-function: ease-in;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-name:slide;
+	-webkit-animation-duration:2s;
+}
+@keyframes slide {
+	from { left :-100%;}
+	to {left:0%;}
+} 
+#animed2{
+	position:relative;
+	animation-name:slide2;
+	animation-duration:2s;
+	animation-timing-function: ease-in;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-name:slide2;
+	-webkit-animation-duration:2s;
+}
+@keyframes slide2 {
+	from { right :-100%;}
+	to {right:0%;}
+} 
